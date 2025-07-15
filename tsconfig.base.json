@@ -20,6 +20,7 @@
   },
   "paths": {
     "@nx-app/ui": ["libs/ui/src/index.ts"],
+    "@nx-app/utils": ["libs/utils/src/index.ts"],
     "@shadcn-in-nx/ui": ["libs/ui/src/ui"],
     "@shadcn-in-nx/utils": ["libs/ui/src/utils"]
   }

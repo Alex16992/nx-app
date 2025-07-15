@@ -1,5 +1,7 @@
-import { Button } from "@nx-app/ui";
+'use client';
 
+import { Button } from '@nx-app/ui';
+import { increment } from '@nx-app/utils';
 
 export default function Index() {
   /*
@@ -13,7 +15,14 @@ export default function Index() {
       <p className="mt-4">
         Это простой пример приложения Next.js с Tailwind CSS + ShadCN
       </p>
-      <Button className="mt-8">Get Started</Button>
+      <Button
+        onClick={() => {
+          console.log(increment(1));
+        }}
+        className="mt-8"
+      >
+        Get Started
+      </Button>
     </div>
   );
 }
