@@ -17,5 +17,10 @@
     "strict": true,
     "target": "es2022",
     "customConditions": ["development"]
+  },
+  "paths": {
+    "@nx-app/ui": ["libs/ui/src/index.ts"],
+    "@shadcn-in-nx/ui": ["libs/ui/src/ui"],
+    "@shadcn-in-nx/utils": ["libs/ui/src/utils"]
   }
 }

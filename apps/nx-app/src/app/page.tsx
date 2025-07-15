@@ -1,3 +1,5 @@
+import { Button } from '@nx-app/ui';
+
 export default function Index() {
   /*
    * Replace the elements below with your own.
@@ -12,6 +14,7 @@ export default function Index() {
             <h1>
               <span> Hello there, </span>
               Welcome @nx-app/nx-app 👋
+              <Button variant="default">Click me</Button>
             </h1>
           </div>
 

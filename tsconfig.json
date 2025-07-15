@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./apps/nx-app"
+    },
+    {
+      "path": "./libs/ui"
     }
   ]
 }
